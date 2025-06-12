@@ -16,7 +16,7 @@ ssh root@YOUR_SERVER_IP
 
 ```
 
-Then run:  <<<<<<<<<<<<<<<<<<<<<<<<<< edit this
+Then run: 
 ```
 bash <(curl -s https://raw.githubusercontent.com/truger44/ScriptsRepo/refs/heads/main/N8N_docker_nginx/n8n-vps-setup/install.sh)
 
