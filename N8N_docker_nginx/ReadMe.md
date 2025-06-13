@@ -23,6 +23,7 @@ bash <(curl -s https://raw.githubusercontent.com/truger44/ScriptsRepo/refs/heads
 ```
 
 
+
 ## Default Password Summary
 
 |Service|Default Login|
@@ -32,3 +33,12 @@ bash <(curl -s https://raw.githubusercontent.com/truger44/ScriptsRepo/refs/heads
 |**Nginx Proxy Mgr**|`admin@example.com` / `changeme` (reset on first login)|
 UPDATE  YOUR PASSWORDS AFTER USING THIS SCRIPT!
 
+
+If you get a error about a command not being understood and are using a windows terminal try this instead to fix diffcult windows carriage return issues
+```
+curl -O https://raw.githubusercontent.com/truger44/ScriptsRepo/refs/heads/main/N8N_docker_nginx/n8n-vps-setup/install.sh
+sed -i 's/\r$//' install.sh
+chmod +x install.sh
+./install.sh
+
+```
