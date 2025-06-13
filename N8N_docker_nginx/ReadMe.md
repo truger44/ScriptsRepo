@@ -1,12 +1,6 @@
 
 ## Copy & Run This Script on Your VPS
-
-1. **Upload your `.env` file** using `scp`:
-2. Open a terminal window in the folder containing your downloaded N8N-setup.env file or 'cd' into it
-```
-scp n8n-setup.env root@YOUR_SERVER_IP:/root/
-
-```
+Open a terminal window in the folder containing your downloaded N8N-setup.env file or 'cd' into it
 
 
 **SSH into your VPS and run the script**:
